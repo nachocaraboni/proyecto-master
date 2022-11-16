@@ -1,0 +1,28 @@
+.cursiva{
+    font-family: 'Kaushan Script', cursive !important; 
+    font-size: 1.5rem;
+}
+
+.rojo{
+border-color: var(--color-bordo) !important;
+color: var(--color-bordo) !important
+}
+
+.shadow{
+    box-shadow: initial;
+    box-shadow:10px 5px 5px rgba(2, 19, 0, 0.5); 
+}
+
+.verde{
+    background-color: var(--color-verde) !important;
+    color: white!important
+    }
+
+.letraVerde{
+    color: var(--color-verde) !important;
+}
+
+.letraBordo{
+    text-decoration: none !important;
+    color: var(--color-bordo) !important;
+}

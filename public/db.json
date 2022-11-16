@@ -1,0 +1,71 @@
+[
+   {
+    "id":"1",
+    "nombre":"Chicles Beldent",
+    "descripcion":"Goma de mascar sabor tutti frutti",
+    "marca":"Beldent",
+    "imagen":"https://loremflickr.com/320/240/chewinggum",
+    "precio":"120",
+    "categoria": "Chicles",
+    "destacado": true,
+    "descDestacado":"Nuevos sabores"
+   },
+   {
+    "id":"2",
+    "nombre":"Caramelos Sugus",
+    "descripcion":"Caramelos masticables sabores surtidos",
+    "marca":"Sugus",
+    "imagen":"https://loremflickr.com/320/240/chewycandy",
+    "precio":"100",
+    "categoria": "Caramelos y gomitas",
+    "destacado": false,
+    "descDestacado":""
+   },
+   {
+    "id":"3",
+    "nombre":"Chocolate Aguila",
+    "descripcion":"Barra de chocolate con leche",
+    "marca":"Aguila",
+    "imagen":"https://loremflickr.com/320/240/chocolatebar",
+    "precio":"300",
+    "categoria": "Chocolate",
+    "destacado": true,
+    "descDestacado":"Oferta especial por la semana de mayo(¿?)"
+   },
+   {
+    "id":"4",
+    "nombre":"Gomitas Mogul",
+    "descripcion":"Paquete de gomitas blandas de 1kg",
+    "marca":"Mogul",
+    "imagen":"https://loremflickr.com/320/240/gummies",
+    "precio":"1000",
+    "categoria": "Caramelos y gomitas",
+    "destacado": false,
+    "descDestacado":""
+   },
+   {
+    "id":"5",
+    "nombre":"Barritas Cerealmix",
+    "descripcion":"Barras de cereal ",
+    "marca":"Cereamix",
+    "imagen":"https://loremflickr.com/320/240/cornflakes",
+    "precio":"130",
+    "categoria": "Alfajores",
+    "destacado": false,
+    "descDestacado":""
+   },
+
+   {
+      "id":"6",
+      "nombre":"Alfajores Santafesinos",
+      "descripcion":"Barras de cereal ",
+      "marca":"Cereamix",
+      "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fale_-_Barcellona_-_194.jpg/1024px-Fale_-_Barcellona_-_194.jpg",
+      "precio":"130",
+      "categoria": "Alfajores",
+      "destacado": true,
+      "descDestacado":"Llegaron los típicos alfajores santafesino elaborados artesanalmente por EmprendimientoInventado"
+     }
+   
+  
+]

@@ -1,0 +1,43 @@
+/*  .fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/Img/golosinas.jpg");
+    background-image: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+} */
+
+.fondo{
+   min-height: 93vh;
+}
+
+.fondo{
+   background-image: linear-gradient(rgba(31, 31, 31, 0.5), rgba(49, 49, 49, 0.5)), url("../../assets/Img/fondo_caramelos2.jpg");
+   background-image: center;
+   background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+.scroll{
+   overflow-y: scroll;
+   max-height: 80vh;}
+  
+.scroll::-webkit-scrollbar-thumb:hover {
+   background: var(--color-bordo) !important; 
+ } 
+
+
+.scroll::-webkit-scrollbar {
+   background: var(--color-bordo) !important; 
+   border-radius: 20px; 
+   opacity: 0.5; 
+   width: 0.5rem;   
+   height: 50%;  
+}
+.scroll::-webkit-scrollbar-thumb {
+   background: var(--color-verde) !important; 
+   opacity: 0.4;
+   width: 0.6rem;
+   height: 50%;
+   border-radius: 20px;
+ }
