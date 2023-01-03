@@ -28,17 +28,16 @@ export const signInWithGoogle = async (error) => {
 }
 
 export const commonRegistration = async (name, pass, error) => {
-try{
-    const result = await createUserWithEmailAndPassword(firebaseAuth, name, pass)
-//        const credential = GoogleAuthProvider.credentialFromResult(result)
-    return userProfile(result.user) 
-
-}
-catch (err){
-    error()
-    console.log('Error en el registro:',err)
-    
-}
+    try{
+        const result = await createUserWithEmailAndPassword(firebaseAuth, name, pass)
+    //        const credential = GoogleAuthProvider.credentialFromResult(result)
+        return userProfile(result.user);
+    }
+    catch (err){
+        error()
+        console.log('Error en el registro:',err)
+        
+    }
 }
 
 export const commonLogin = async(name,pass,error) => {

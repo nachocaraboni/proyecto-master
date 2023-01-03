@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { commonRegistration } from "../../firebase/providers/providers"
 
-export const Register = ({signup,waiting, firebaseLogin}) => {
+export const Register = ({ signup, waiting, firebaseLogin }) => {
 
-    const[form, setForm] = useState({name:'',pass:''})
+    const[form, setForm] = useState({name:'',pass:''});
 
     function handleInputChange(e){
         const {name, value} = e.target
@@ -11,15 +11,15 @@ export const Register = ({signup,waiting, firebaseLogin}) => {
     }
 
     function checkForm(e) {
-        e.preventDefault()
-        const {name,pass}=form
+        e.preventDefault();
+        const { name, pass }=form
         if(name!=='' && pass!== ''){
 
-            const user= commonRegistration(name,pass)
+            const user= commonRegistration( name, pass);
             firebaseLogin(user)
 
         }
-        //
+    
     }
 
    

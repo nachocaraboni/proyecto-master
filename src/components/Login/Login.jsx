@@ -83,7 +83,7 @@ export const Login =()=>{
             </div>
 
             <button
-            className="btn link-secondary"
+            className="row w-100 btn btn-light my-1"
             onClick={ signup }
             >
                 Registrarse

@@ -50,32 +50,6 @@ export const Pages = () => {
               
             </div>
     )
-        {/* <ul className={ul}>
-
-            {cartCount>0 
-            && 
-            <Link 
-                to='carrito'
-                className="btn btn-light rounded-pill fs-6 fw-bold me-3"
-            > 
-            {cartCount}
-            </Link>
-            }
-
-           {menu.map(item =>
-                <Link
-                    key={item}
-                    className ={`text-light px-5 py-2 text-decoration-none ${activeLink(item)}`}
-                    to={item.toLowerCase()}
-                    onClick = {() => handleClick(item)}
-                >
-                    {item}
-                </Link>
-           )}
-        </ul>)
- */}
-
-    
 }
 
 /*    const menu = ["Inicio","Promociones","Nosotros","Contacto"];
